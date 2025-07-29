@@ -14,8 +14,8 @@ body{
 }
 @font-face {
   font-family: 'Integral CF';
-  src: url('/fonts/Fontspring-DEMO-integralcf-medium.otf') format('opentype'),
-       url('/fonts/Fontspring-DEMO-integralcf-regular.otf') format('opentype');
+  src: url('./fonts/Fontspring-DEMO-integralcf-medium.otf') format('opentype'),
+       url('./fonts/Fontspring-DEMO-integralcf-regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -32,13 +32,13 @@ body{
     background-color: rgb(119, 212, 243);
 }
 #page2 h1{
-    font-size: 40vw;
+    font-size: 35vw;
     font-weight: 500;
     padding: 0px 50px;
     text-transform: uppercase;
     font-family: "Integral CF";
     /* transform: translateX(-240%); */
-    transform: translateY(-7%);
+    /* transform: translateY(-7%); */
 }
 #page3{
     height: 100%;
