@@ -45,3 +45,21 @@ body{
     width: 100%;
     background-color: black;
 }
+#page4{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(23, 54, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    height: 60%;
+    width: 40%;
+    background-color: white;
+}
+#page5{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}

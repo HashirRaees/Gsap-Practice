@@ -8,3 +8,14 @@ gsap.to("#page2 h1", {
     pin: true,
   },
 });
+gsap.to("#page4 #box",{
+  transform: "scaleX(2)",
+  scrollTrigger : {
+    trigger: "#page4",
+    scroller: "body",
+    start: "top 0%",
+    scrub : 1,
+    pin : true,
+    markers : true,
+  }
+})
